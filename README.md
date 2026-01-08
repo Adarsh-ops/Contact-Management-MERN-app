@@ -154,8 +154,8 @@ curl http://localhost:5000/api/contacts
 curl -X POST http://localhost:5000/api/contacts \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "Adarsh nagar",
+    "email": "adarsh@example.com",
     "phone": "1234567890",
     "message": "Hello!"
   }'
@@ -250,8 +250,8 @@ Access Mongo Express at `http://localhost:8081` to:
 ├─────────────────┬───────────────────────────────┤
 │  Add Contact    │      Contacts List (5)        │
 │  ┌───────────┐  │  ┌─────────────────────────┐ │
-│  │ Name      │  │  │ John Doe          [Del] │ │
-│  │ Email     │  │  │ john@example.com        │ │
+│  │ Name      │  │  │ Adarsh            [Del] │ │
+│  │ Email     │  │  │ adarsh@example.com      │ │
 │  │ Phone     │  │  │ 1234567890              │ │
 │  │ Message   │  │  └─────────────────────────┘ │
 │  │[Add]      │  │  ┌─────────────────────────┐ │
